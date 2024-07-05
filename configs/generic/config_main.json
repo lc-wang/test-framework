@@ -1,0 +1,78 @@
+{
+  "project": "Generic Test Framework",
+  "modes": {
+    "seq_only_test": {
+      "type": "infinite",
+      "sequential": [
+        "touch",
+        "rgb",
+        "backlight"
+      ],
+      "parallel": []
+    },
+    "system_test": {
+      "type": "infinite",
+      "sequential": [
+        "touch",
+        "rgb",
+        "backlight"
+      ],
+      "parallel": [
+        "eth",
+        "wifi"
+      ]
+    },
+    "pcba_test": {
+      "type": "infinite",
+      "sequential": [
+        "rgb",
+        "touch",
+        "backlight"
+      ],
+      "parallel": [
+        "wifi",
+        "eth"
+      ]
+    },
+    "burnin_test": {
+      "type": "timed",
+      "sequential": [],
+      "parallel": [
+        "wifi",
+        "eth",
+        "rgb"
+      ]
+    }
+  },
+  "tests": {
+    "rgb": {
+      "script": "tests/generic/rgb.sh",
+      "enabled": true,
+      "params": {
+        "RGB_DURATION": "4"
+      }
+    },
+    "touch": {
+      "script": "tests/generic/touch.sh",
+      "enabled": true
+    },
+    "wifi": {
+      "script": "tests/generic/wifi.sh",
+      "enabled": true,
+      "tolerance": 0.001,
+      "params": {
+        "AP_SSID": "FactoryAP",
+        "AP_PASS": "12345678",
+        "MAC_ADDR": "00:11:22:33:44:55"
+      }
+    },
+    "eth": {
+      "script": "tests/generic/eth.sh",
+      "enabled": true,
+      "params": {
+        "INTERFACE": "eth4",
+        "TARGET_IP": "192.168.0.4"
+      }
+    }
+  }
+}

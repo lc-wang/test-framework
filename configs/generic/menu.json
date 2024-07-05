@@ -1,0 +1,42 @@
+{
+  "modes": [
+    {
+      "mode": "system_test",
+      "label": "System Test Flow",
+      "type": "flow",
+      "order": 1
+    },
+    {
+      "mode": "pcba_test",
+      "label": "PCBA Test Flow",
+      "type": "flow",
+      "order": 2
+    },
+    {
+      "mode": "burnin_test",
+      "label": "Burn-in Long Duration Test",
+      "type": "flow",
+      "order": 3
+    },
+    {
+      "mode": "seq_only_test",
+      "label": "Seq Only Test",
+      "type": "flow",
+      "order": 4
+    },
+    {
+      "mode": "global_variable_setting",
+      "label": "Global Variable Settings",
+      "type": "script",
+      "script": "scripts/generic/global_variable_setting.sh",
+      "order": 50
+    },
+    {
+      "mode": "about",
+      "label": "About the Test Framework",
+      "type": "script",
+      "script": "scripts/generic/about_info.sh",
+      "order": 99
+    }
+  ]
+}

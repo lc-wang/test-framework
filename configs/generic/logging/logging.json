@@ -1,0 +1,9 @@
+{
+  "log_to_console": false,
+  "log_to_file": true,
+  "capture_all_output": true,
+  "include_caller": true,
+  "colorize": true,
+  "zone": "America/New_York",
+  "log_dir": "reports/logs"
+}
