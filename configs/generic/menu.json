@@ -1,0 +1,105 @@
+{
+  "modes": [
+    {
+      "mode": "system_test",
+      "label": "System 測試流程",
+      "type": "flow",
+      "order": 1
+    },
+    {
+      "mode": "pcba_test",
+      "label": "PCBA 測試流程",
+      "type": "flow",
+      "order": 2
+    },
+    {
+      "mode": "burnin_test",
+      "label": "Burn-in 長時測試",
+      "type": "flow",
+      "order": 3
+    },
+    {
+      "mode": "thermal_test",
+      "label": "Thermal 測試",
+      "type": "flow",
+      "order": 4
+    },
+    {
+      "mode": "about",
+      "label": "About 測試框架",
+      "type": "script",
+      "script": "scripts/about_info.sh",
+      "order": 99
+    },
+    {
+      "mode": "about",
+      "label": "About 測試框架",
+      "type": "script",
+      "script": "scripts/about_info.sh",
+      "order": 99
+    },
+    {
+      "mode": "about",
+      "label": "About 測試框架",
+      "type": "script",
+      "script": "scripts/about_info.sh",
+      "order": 99
+    },
+    {
+      "mode": "about",
+      "label": "About 測試框架",
+      "type": "script",
+      "script": "scripts/about_info.sh",
+      "order": 99
+    },
+    {
+      "mode": "about",
+      "label": "About 測試框架",
+      "type": "script",
+      "script": "scripts/about_info.sh",
+      "order": 99
+    },
+    {
+      "mode": "about",
+      "label": "About 測試框架",
+      "type": "script",
+      "script": "scripts/about_info.sh",
+      "order": 99
+    },
+    {
+      "mode": "about",
+      "label": "About 測試框架",
+      "type": "script",
+      "script": "scripts/about_info.sh",
+      "order": 99
+    },
+    {
+      "mode": "about",
+      "label": "About 測試框架",
+      "type": "script",
+      "script": "scripts/about_info.sh",
+      "order": 99
+    },
+    {
+      "mode": "about",
+      "label": "About 測試框架",
+      "type": "script",
+      "script": "scripts/about_info.sh",
+      "order": 99
+    },
+    {
+      "mode": "about",
+      "label": "About 測試框架",
+      "type": "script",
+      "script": "scripts/about_info.sh",
+      "order": 99
+    },
+    {
+      "mode": "about",
+      "label": "About 測試框架",
+      "type": "script",
+      "script": "scripts/about_info.sh",
+      "order": 99
+    }
+  ]
+}
