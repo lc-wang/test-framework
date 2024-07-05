@@ -1,0 +1,3 @@
+{ "tests": {
+  "eth": { "pass": 10, "fail": 1, "total": 11 },
+  "wifi": { "pass": 10, "fail": 1, "total": 11 } } }

@@ -1,0 +1,29 @@
+{
+  "tests": {
+    "touch": {
+      "pass": 0,
+      "fail": 0,
+      "total": 0
+    },
+    "rgb": {
+      "pass": 1,
+      "fail": 0,
+      "total": 1
+    },
+    "backlight": {
+      "pass": 0,
+      "fail": 0,
+      "total": 0
+    },
+    "eth": {
+      "pass": 10,
+      "fail": 1,
+      "total": 11
+    },
+    "wifi": {
+      "pass": 10,
+      "fail": 1,
+      "total": 11
+    }
+  }
+}

@@ -1,0 +1,22 @@
+[2025-11-24 00:56:23] [34mINFO[0m  [logging_utils.sh:139:logging_setup_session] Log 檔案: reports/logs/20251124_005623_sequential.log
+[2025-11-24 00:56:23] [34mINFO[0m  [config_param_utils.sh:383:export_all_params_for_mode] 載入並覆寫所有參數 (system_test)
+[2025-11-24 00:56:23] [34mINFO[0m  [config_param_utils.sh:274:configure_tests_interactively] 載入模式 system_test 的測項清單
+[2025-11-24 00:56:57] [34mINFO[0m  [config_param_utils.sh:39:_set_test_enabled_state] 更新 touch enabled=true
+[2025-11-24 00:57:01] [34mINFO[0m  [config_param_utils.sh:39:_set_test_enabled_state] 更新 touch enabled=false
+[2025-11-24 00:57:14] [34mINFO[0m  [config_param_utils.sh:371:configure_tests_interactively] touch 啟用狀態: false
+[2025-11-24 00:57:14] [34mINFO[0m  [config_param_utils.sh:371:configure_tests_interactively] backlight 啟用狀態: false
+[2025-11-24 00:57:14] [34mINFO[0m  [config_param_utils.sh:371:configure_tests_interactively] rgb 啟用狀態: true
+[2025-11-24 00:57:14] [34mINFO[0m  [config_param_utils.sh:386:export_all_params_for_mode] 參數設定完成
+[2025-11-24 00:57:14] [34mINFO[0m  [runner_seq.sh:97] 執行順序測試流程 (system_test) using configs/generic/config_main.json
+[2025-11-24 00:57:14] [33mWARN[0m  [runner_seq.sh:65:run_test_item] 略過 touch (disabled)
+[2025-11-24 00:57:14] [34mINFO[0m  [runner_seq.sh:77:run_test_item] 執行測項：rgb
+[2025-11-24 00:57:14] [34mINFO[0m  [test_template.sh:17:source] 載入 test_template (PID=2059)
+[2025-11-24 00:57:14] [34mINFO[0m  [test_template.sh:18:source] 啟動測試迴圈，執行函式：test_logic
+[2025-11-24 00:57:14] [34mINFO[0m  [test_template.sh:25:source] Sequential 模式結果：[2025-11-24 00:57:14] [34mINFO[0m  [rgb.sh:4:test_logic] rgb
+PASS
+[2025-11-24 00:57:14] [34mINFO[0m  [rgb.sh:4:test_logic] rgb
+PASS
+[2025-11-24 00:57:14] [32mOK[0m  [runner_seq.sh:81:run_test_item] rgb 測試成功
+[2025-11-24 00:57:14] [33mWARN[0m  [runner_seq.sh:65:run_test_item] 略過 backlight (disabled)
+[2025-11-24 00:57:14] [34mINFO[0m  [runner_seq.sh:106] 順序測試完成。
+[2025-11-24 00:57:14] [34mINFO[0m  [runner_seq.sh:112] 順序測試結果已輸出：reports/results/system_test_sequential_result.json

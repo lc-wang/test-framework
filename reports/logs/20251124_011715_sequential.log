@@ -1,0 +1,3 @@
+[2025-11-24 01:17:15] [34mINFO[0m  [logging_utils.sh:139:logging_setup_session] Log 檔案: reports/logs/20251124_011715_sequential.log
+[2025-11-24 01:17:15] [34mINFO[0m  [config_param_utils.sh:383:export_all_params_for_mode] 載入並覆寫所有參數 (system_test)
+[2025-11-24 01:17:15] [34mINFO[0m  [config_param_utils.sh:274:configure_tests_interactively] 載入模式 system_test 的測項清單

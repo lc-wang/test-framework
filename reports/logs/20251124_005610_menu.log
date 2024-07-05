@@ -1,0 +1,59 @@
+[2025-11-24 00:56:10] [34mINFO[0m  [logging_utils.sh:139:logging_setup_session] Log 檔案: reports/logs/20251124_005610_menu.log
+[2025-11-24 00:56:23] [34mINFO[0m  [global_params_utils.sh:46:load_global_variables] 載入全域參數（檔案：configs/generic/global_params.json）...
+[2025-11-24 00:56:23] [34mINFO[0m  [global_params_utils.sh:50:load_global_variables] export LOG_SERVER_IP=192.168.1.125
+[2025-11-24 00:56:23] [34mINFO[0m  [global_params_utils.sh:50:load_global_variables] export LOG_SERVER_PORT=8089
+[2025-11-24 00:56:23] [34mINFO[0m  [runner_menu.sh:199] 開始執行模式：system_test
+[2025-11-24 00:56:23] [34mINFO[0m  [runner_menu.sh:142:run_sequential_tests] 執行順序測項...
+[2025-11-24 00:56:23] [34mINFO[0m  [logging_utils.sh:114:logging_setup_session] Log 時區: America/New_York
+[2025-11-24 00:56:23] [34mINFO[0m  [logging_utils.sh:139:logging_setup_session] Log 檔案: reports/logs/20251124_005623_sequential.log
+[2025-11-24 00:56:23] [34mINFO[0m  [config_param_utils.sh:383:export_all_params_for_mode] 載入並覆寫所有參數 (system_test)
+[2025-11-24 00:56:23] [34mINFO[0m  [config_param_utils.sh:274:configure_tests_interactively] 載入模式 system_test 的測項清單
+[2025-11-24 00:56:57] [34mINFO[0m  [config_param_utils.sh:39:_set_test_enabled_state] 更新 touch enabled=true
+[2025-11-24 00:57:01] [34mINFO[0m  [config_param_utils.sh:39:_set_test_enabled_state] 更新 touch enabled=false
+[2025-11-24 00:57:14] [34mINFO[0m  [config_param_utils.sh:371:configure_tests_interactively] touch 啟用狀態: false
+[2025-11-24 00:57:14] [34mINFO[0m  [config_param_utils.sh:371:configure_tests_interactively] backlight 啟用狀態: false
+[2025-11-24 00:57:14] [34mINFO[0m  [config_param_utils.sh:371:configure_tests_interactively] rgb 啟用狀態: true
+[2025-11-24 00:57:14] [34mINFO[0m  [config_param_utils.sh:386:export_all_params_for_mode] 參數設定完成
+[2025-11-24 00:57:14] [34mINFO[0m  [runner_seq.sh:97] 執行順序測試流程 (system_test) using configs/generic/config_main.json
+[2025-11-24 00:57:14] [33mWARN[0m  [runner_seq.sh:65:run_test_item] 略過 touch (disabled)
+[2025-11-24 00:57:14] [34mINFO[0m  [runner_seq.sh:77:run_test_item] 執行測項：rgb
+[2025-11-24 00:57:14] [34mINFO[0m  [test_template.sh:17:source] 載入 test_template (PID=2059)
+[2025-11-24 00:57:14] [34mINFO[0m  [test_template.sh:18:source] 啟動測試迴圈，執行函式：test_logic
+[2025-11-24 00:57:14] [34mINFO[0m  [test_template.sh:25:source] Sequential 模式結果：[2025-11-24 00:57:14] [34mINFO[0m  [rgb.sh:4:test_logic] rgb
+PASS
+[2025-11-24 00:57:14] [34mINFO[0m  [rgb.sh:4:test_logic] rgb
+PASS
+[2025-11-24 00:57:14] [32mOK[0m  [runner_seq.sh:81:run_test_item] rgb 測試成功
+[2025-11-24 00:57:14] [33mWARN[0m  [runner_seq.sh:65:run_test_item] 略過 backlight (disabled)
+[2025-11-24 00:57:14] [34mINFO[0m  [runner_seq.sh:106] 順序測試完成。
+[2025-11-24 00:57:14] [34mINFO[0m  [runner_seq.sh:112] 順序測試結果已輸出：reports/results/system_test_sequential_result.json
+[2025-11-24 00:57:14] [34mINFO[0m  [runner_menu.sh:144:run_sequential_tests] 順序測試結束
+[2025-11-24 00:57:14] [34mINFO[0m  [runner_menu.sh:152:run_parallel_tests] 執行平行測項...
+[2025-11-24 00:57:14] [34mINFO[0m  [logging_utils.sh:114:logging_setup_session] Log 時區: America/New_York
+[2025-11-24 00:57:14] [34mINFO[0m  [logging_utils.sh:139:logging_setup_session] Log 檔案: reports/logs/20251124_005714_coproc.log
+[2025-11-24 00:57:14] [34mINFO[0m  [config_param_utils.sh:383:export_all_params_for_mode] 載入並覆寫所有參數 (system_test)
+[2025-11-24 00:57:14] [34mINFO[0m  [config_param_utils.sh:274:configure_tests_interactively] 載入模式 system_test 的測項清單
+[2025-11-24 00:57:58] [34mINFO[0m  [config_param_utils.sh:39:_set_test_enabled_state] 更新 eth enabled=true
+[2025-11-24 00:58:08] [34mINFO[0m  [config_param_utils.sh:185:_edit_tests_in_group] 設定 INTERFACE=eth4
+[2025-11-24 00:58:18] [34mINFO[0m  [config_param_utils.sh:185:_edit_tests_in_group] 設定 TARGET_IP=192.168.0.4
+[2025-11-24 00:58:20] [34mINFO[0m  [config_param_utils.sh:371:configure_tests_interactively] eth 啟用狀態: true
+[2025-11-24 00:58:20] [34mINFO[0m  [config_param_utils.sh:371:configure_tests_interactively] wifi 啟用狀態: true
+[2025-11-24 00:58:20] [34mINFO[0m  [config_param_utils.sh:386:export_all_params_for_mode] 參數設定完成
+[2025-11-24 00:58:20] [34mINFO[0m  [runner_coproc.sh:57:load_mode_metadata] 模式類型: infinite
+[2025-11-24 00:58:20] [34mINFO[0m  [runner_coproc.sh:58:load_mode_metadata] Parallel 測項: eth wifi
+[H[2J[3Jcore/runner_coproc.sh: 行 109: 警告： execute_coproc: 副进程 [2168:CHILD_COPROC] 仍然存在
+[2025-11-24 00:58:20] [34mINFO[0m  [test_template.sh:17:source] 載入 test_template (PID=2207)
+[2025-11-24 00:58:20] [34mINFO[0m  [test_template.sh:18:source] 啟動測試迴圈，執行函式：test_logic
+[2025-11-24 00:58:20] [34mINFO[0m  [test_template.sh:17:source] 載入 test_template (PID=2223)
+[2025-11-24 00:58:20] [34mINFO[0m  [test_template.sh:18:source] 啟動測試迴圈，執行函式：test_logic
+[2025-11-24 00:58:31] [34mINFO[0m  [runner_coproc.sh:228:main_loop] 使用者按下 ESC/Enter，結束測試
+[2025-11-24 00:58:31] [33mWARN[0m  [runner_coproc.sh:85:cleanup] 結束子程序 (PID=2168)
+已终止
+[2025-11-24 00:58:32] [33mWARN[0m  [runner_coproc.sh:85:cleanup] 結束子程序 (PID=2174)
+已终止
+[2025-11-24 00:58:32] [34mINFO[0m  [runner_coproc.sh:105:cleanup] 測試結果已輸出：reports/results/system_test_result.json (耗時 00:00:12)
+[2025-11-24 00:58:32] [34mINFO[0m  [runner_coproc.sh:244:main_loop] main loop end
+[2025-11-24 00:58:32] [34mINFO[0m  [runner_coproc.sh:268] coproc 結束，返回 runner_menu.sh
+[2025-11-24 00:58:32] [34mINFO[0m  [runner_menu.sh:154:run_parallel_tests] 平行測試結束
+[2025-11-24 00:58:32] [34mINFO[0m  [runner_menu.sh:117:merge_results_to_file] 合併結果已輸出：reports/results/system_test_final_result.json
+[2025-11-24 01:10:28] [32mOK[0m  [runner_menu.sh:188:show_final_dialog] 測試報告顯示完畢

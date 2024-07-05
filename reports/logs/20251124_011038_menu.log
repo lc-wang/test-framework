@@ -1,0 +1,20 @@
+[2025-11-24 01:10:38] [34mINFO[0m  [logging_utils.sh:139:logging_setup_session] Log 檔案: reports/logs/20251124_011038_menu.log
+[2025-11-24 01:10:40] [34mINFO[0m  [global_variable_setting.sh:23] 啟動全域參數設定
+[2025-11-24 01:10:40] [34mINFO[0m  [global_params_utils.sh:46:load_global_variables] 載入全域參數（檔案：configs/generic/global_params.json）...
+[2025-11-24 01:10:40] [34mINFO[0m  [global_params_utils.sh:50:load_global_variables] export LOG_SERVER_IP=192.168.1.125
+[2025-11-24 01:10:40] [34mINFO[0m  [global_params_utils.sh:50:load_global_variables] export LOG_SERVER_PORT=8089
+[2025-11-24 01:10:52] [34mINFO[0m  [global_params_utils.sh:111:edit_global_variables] LOG_SERVER_IP 維持為 192.168.1.125
+[2025-11-24 01:11:00] [34mINFO[0m  [global_params_utils.sh:111:edit_global_variables] LOG_SERVER_PORT 維持為 8089
+[2025-11-24 01:11:00] [32mOK[0m  [global_params_utils.sh:117:edit_global_variables] 全域參數已更新
+[2025-11-24 01:11:00] [34mINFO[0m  [global_params_utils.sh:46:load_global_variables] 載入全域參數（檔案：configs/generic/global_params.json）...
+[2025-11-24 01:11:00] [34mINFO[0m  [global_params_utils.sh:50:load_global_variables] export LOG_SERVER_IP=192.168.1.125
+[2025-11-24 01:11:00] [34mINFO[0m  [global_params_utils.sh:50:load_global_variables] export LOG_SERVER_PORT=8089
+[2025-11-24 01:17:15] [34mINFO[0m  [global_params_utils.sh:46:load_global_variables] 載入全域參數（檔案：configs/generic/global_params.json）...
+[2025-11-24 01:17:15] [34mINFO[0m  [global_params_utils.sh:50:load_global_variables] export LOG_SERVER_IP=192.168.1.125
+[2025-11-24 01:17:15] [34mINFO[0m  [global_params_utils.sh:50:load_global_variables] export LOG_SERVER_PORT=8089
+[2025-11-24 01:17:15] [34mINFO[0m  [runner_menu.sh:199] 開始執行模式：system_test
+[2025-11-24 01:17:15] [34mINFO[0m  [runner_menu.sh:142:run_sequential_tests] 執行順序測項...
+[2025-11-24 01:17:15] [34mINFO[0m  [logging_utils.sh:114:logging_setup_session] Log 時區: America/New_York
+[2025-11-24 01:17:15] [34mINFO[0m  [logging_utils.sh:139:logging_setup_session] Log 檔案: reports/logs/20251124_011715_sequential.log
+[2025-11-24 01:17:15] [34mINFO[0m  [config_param_utils.sh:383:export_all_params_for_mode] 載入並覆寫所有參數 (system_test)
+[2025-11-24 01:17:15] [34mINFO[0m  [config_param_utils.sh:274:configure_tests_interactively] 載入模式 system_test 的測項清單
