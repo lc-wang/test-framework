@@ -1,0 +1,24 @@
+{
+  "modes": [
+    {
+      "mode": "burnin_test",
+      "label": "Burn-in Long Duration Test",
+      "type": "flow",
+      "order": 3
+    },
+    {
+      "mode": "global_variable_setting",
+      "label": "Global Variable Settings",
+      "type": "script",
+      "script": "scripts/imx95/smarc-imx95/ismc-cb/global_variable_setting.sh",
+      "order": 50
+    },
+    {
+      "mode": "about",
+      "label": "About the Test Framework",
+      "type": "script",
+      "script": "scripts/imx95/smarc-imx95/ismc-cb/about_info.sh",
+      "order": 99
+    }
+  ]
+}

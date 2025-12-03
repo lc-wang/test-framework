@@ -1,0 +1,42 @@
+{
+  "project": "IMX95 smarc smc-cb Test Framework",
+  "modes": {
+    "burnin_test": {
+      "type": "timed",
+      "sequential": [],
+      "parallel": [
+        "cpu",
+        "emmc",
+        "gpu",
+        "mem"
+      ]
+    }
+  },
+  "tests": {
+    "cpu": {
+      "script": "tests/imx95/smarc-imx95/ismc-cb/cpu.sh",
+      "enabled": true
+    },
+    "emmc": {
+      "script": "tests/imx95/smarc-imx95/ismc-cb/emmc.sh",
+      "enabled": true,
+      "params": {
+        "TOUCHFILE": "emmc_test.txt"
+      }
+    },
+    "gpu": {
+      "script": "tests/imx95/smarc-imx95/ismc-cb/gpu.sh",
+      "enabled": true,
+      "params": {
+        "PASS_SCORE": "100"
+      }
+    },
+    "mem": {
+      "script": "tests/imx95/smarc-imx95/ismc-cb/mem.sh",
+      "enabled": true,
+      "params": {
+        "TEST_PERCENTAGE": "0.6"
+      }
+    }
+  }
+}
